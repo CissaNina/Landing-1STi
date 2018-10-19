@@ -1,0 +1,125 @@
+/*  Case VnW  */
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+.start-box{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Assets/img/Case-Capa-VnW.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxInitial{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+  .Box--text{
+    width: 100%;
+    padding: 2% 0 2% 2%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .start-box_title{
+    width: 20%;
+    font-size: 1.6em;
+    text-align: left;
+    font-weight: bold;
+  }
+  .start-box_description{
+    width: 20%;
+    font-size: 0.8em;
+  }
+  .goalBox--type{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    font-size: 0.8em;
+  }
+  .box--type{
+    width: 25%;
+    padding: 2%;
+    background-color:#F8F8F8;
+  }
+  .marker{
+    background-color: #FFDD00;
+    line-height: 2em;
+  }
+  .LargerBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .content-box--lateral{
+    width: 20%;
+    min-height: 200vh;
+    padding: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#F8F8F8;
+  }
+  .vnw_logo{
+    width: 8vw;
+  }
+  img{
+    width: 9vw;
+  }
+  .content-box{
+    width: 80%;
+    height: auto;
+    background-color: #F8F8F8;
+  }
+  .content-box--vnw{
+    width: 70%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-end;
+  }
+  .box_sobre{
+    display: flex;
+    flex-direction: row;
+  }
+  .box--vnw_text{
+    width: 35vw;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+  }
+  .vnw_alemao{
+    width: 40vw;
+    padding-bottom: 3px;
+  }
+  .footer-box{
+      width: 30%;
+      margin:5% 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .footer-box--text{
+      width: 13.3vw;
+      align-self: flex-end;}
