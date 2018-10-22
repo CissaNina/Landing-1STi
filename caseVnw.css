@@ -16,8 +16,7 @@ body {
 .start-box{
     width: 100%;
     height: 100vh;
-    background-image: url("./Assets/img/Case-Capa-VnW.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./Assets/img/Case-Capa-Mypolis@2x.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
